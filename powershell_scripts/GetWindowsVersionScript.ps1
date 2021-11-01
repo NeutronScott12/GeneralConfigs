@@ -10,4 +10,4 @@ $build= (Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion").
 $installd = Get-ComputerInfo -Property WindowsInstallDateFromRegistry
 
 Write-host $installd
-Write-Host $name, $bit, $vert, $ver, `enter code here`$buildt, $build, $installd
+Write-Host $name, $bit, $vert, $ver, "enter code here" $buildt, $build, $installd
